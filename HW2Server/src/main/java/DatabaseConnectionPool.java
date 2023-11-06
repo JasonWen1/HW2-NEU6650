@@ -10,8 +10,8 @@ public class DatabaseConnectionPool {
 
   public static final String URL = "jdbc:mysql://database-2.cxqrzvlmrecu.us-west-2.rds.amazonaws.com:3306/";
   public static final String DATABASE_NAME = "HW2";
-  public static final String USERNAME = "zwenab";
-  public static final String PASSWORD = "Wzq022930!";
+  public static final String USERNAME = "[username_of_db]";
+  public static final String PASSWORD = "[password_of_db]";
 
   static BasicDataSource dataSource = new BasicDataSource();
 
