@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="HW2Server:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/HW2Server_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HW2Server/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="HW2Server:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
